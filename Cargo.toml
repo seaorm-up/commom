@@ -1,6 +1,6 @@
 [package]
 name = "common"
-version = "0.1.0"
+version = '0.1.1'
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,4 +11,4 @@ seaography = { version = "^0.1", features = [ "with-decimal", "with-chrono" ], p
 async-graphql = { version = "^4.0.15", features = ["decimal", "chrono", "dataloader"] }
 async-trait = { version = "^0.1.57" }
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"] }
-data_dict = { version = "0.1.0", path = "../data_dict" }
+data_dict = {  path = "../data-dict" }
