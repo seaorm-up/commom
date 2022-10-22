@@ -1,13 +1,13 @@
 [package]
 name = "common"
-version = '0.1.1'
+version = '0.1.2'
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 sea-orm = { version = "^0.9", features = ["sqlx-sqlite", "runtime-async-std-native-tls"] }
-seaography = { version = "^0.1", features = [ "with-decimal", "with-chrono" ], path = "d:\\rust\\pr77"}
+seaography = { features = [ "with-decimal", "with-chrono" ], path = "d:\\rust\\pr77"}
 async-graphql = { version = "^4.0.15", features = ["decimal", "chrono", "dataloader"] }
 async-trait = { version = "^0.1.57" }
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"] }
